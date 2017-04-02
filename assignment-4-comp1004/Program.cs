@@ -80,7 +80,7 @@ namespace assignment_4_comp1004
             }
         }
 
-        public static product LoadProduct(DollarComputersContext database)
+        public static product LoadProduct(productscotext database)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
 

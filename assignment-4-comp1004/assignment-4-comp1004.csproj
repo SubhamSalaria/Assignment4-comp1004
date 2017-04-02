@@ -59,6 +59,18 @@
   <ItemGroup>
     <Compile Include="Modules\product.cs" />
     <Compile Include="Modules\productscotext.cs" />
+    <Compile Include="ProductInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductInfoForm.Designer.cs">
+      <DependentUpon>ProductInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectionForm.Designer.cs">
+      <DependentUpon>SelectionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SplashForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,9 @@
     </Compile>
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

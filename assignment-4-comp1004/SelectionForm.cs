@@ -83,7 +83,7 @@ namespace assignment_4_comp1004
                 this.Database = new productscotext();
 
                 // Use LINQ to access the student table in the db
-                ProductList = (from product in Database.products
+                this.ProductList = (from product in Database.products
                                select product).ToList();
             }
             catch
@@ -102,7 +102,8 @@ namespace assignment_4_comp1004
         public void GetProducts()
         {
             // Display ProductList in the DataGridView
-            this.ProductsDataGridView.DataSource = ProductList;
+            this.ProductsDataGridView.DataSource = this.ProductList;
+            Debug.WriteLine(ProductsDataGridView.Columns.Count);
 
             for (int i = 0; i < this.ProductsDataGridView.Columns.Count; i++)
             {

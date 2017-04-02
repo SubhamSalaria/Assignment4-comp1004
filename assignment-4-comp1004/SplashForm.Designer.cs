@@ -34,6 +34,7 @@
             // 
             // SplashTimer
             // 
+            this.SplashTimer.Interval = 3000;
             this.SplashTimer.Tick += new System.EventHandler(this.SplashTimer_Tick);
             // 
             // SplashForm
@@ -44,6 +45,7 @@
             this.ControlBox = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "SplashForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.SplashForm_Load);
             this.ResumeLayout(false);
 

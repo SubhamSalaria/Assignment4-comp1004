@@ -37,7 +37,7 @@ namespace assignment_4_comp1004
 
         private void SplashForm_Load(object sender, EventArgs e)
         {
-            //this.StartForm.LoadProducts();
+            this.StartForm.LoadProducts();
             this.SplashTimer.Enabled = true;
         }
     }

@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//shubam salaria
+// Name: Subham Salaria
+// Student #: 200333595
+// Dollar Computers
 namespace assignment_4_comp1004
 {
     public partial class SplashForm : Form

@@ -10,6 +10,9 @@ using System.Windows.Forms;
 using assignment_4_comp1004.Modules;
 using System.IO;
 using assignment_4_comp1004.Properties;
+// Name: Subham Salaria
+// Student #: 200333595
+// Dollar Computers
 
 namespace assignment_4_comp1004
 {

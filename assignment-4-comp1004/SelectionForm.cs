@@ -11,6 +11,9 @@ using assignment_4_comp1004.Modules;
 using System.Diagnostics;
 using System.Net.NetworkInformation;
 using System.Net;
+// Name: Subham Salaria
+// Student #: 200333595
+// Dollar Computers
 
 namespace assignment_4_comp1004
 {

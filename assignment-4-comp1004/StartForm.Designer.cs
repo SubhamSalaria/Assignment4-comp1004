@@ -28,20 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ExitButton = new System.Windows.Forms.Button();
             this.NewOrderButton = new System.Windows.Forms.Button();
             this.LoadOrderButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(69, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(137, 165);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // ExitButton
             // 
@@ -72,6 +64,15 @@
             this.LoadOrderButton.Text = "Load Order";
             this.LoadOrderButton.UseVisualStyleBackColor = true;
             this.LoadOrderButton.Click += new System.EventHandler(this.FormButton_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::assignment_4_comp1004.Properties.Resources.img2;
+            this.pictureBox1.Location = new System.Drawing.Point(32, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(205, 165);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // StartForm
             // 

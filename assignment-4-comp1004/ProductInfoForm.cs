@@ -8,7 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using assignment_4_comp1004.Modules;
-
+// Name: Subham Salaria
+// Student #: 200333595
+// Dollar Computers
 namespace assignment_4_comp1004
 {
     public partial class ProductInfoForm : Form

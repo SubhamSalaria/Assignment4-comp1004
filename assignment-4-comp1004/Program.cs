@@ -7,7 +7,9 @@ using System.Windows.Forms;
 using assignment_4_comp1004.Modules;
 using System.IO;
 using System.Text;
-
+// Name: Subham Salaria
+// Student #: 200333595
+// Dollar Computers
 namespace assignment_4_comp1004
 {
     static class Program
@@ -172,9 +174,9 @@ namespace assignment_4_comp1004
         {
             MessageBox.Show(
                 "Dollar Computers computer purchasing software v1.02\n\n"
-                + "Created By: Naga Rimmalapudi | 200277598\n"
-                + "Last Revised: December 1, 2016\n\n"
-                + "COMP1004-F2016-Assignment 4\n"
+                + "Created By: Subham Salaria | 200333595\n"
+                
+                + "COMP1004-W2017-Assignment 4\n"
                 + "This application replicates the purchasing of computer hardware at a fake company called Dollar Computers. It uses an online SQL server and SQL database for all of the product information.",
                 "About - Dollar Computers"
                 );
